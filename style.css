@@ -1,0 +1,657 @@
+body {
+    background-color: rgb(245, 245, 220);
+    font-family: sans-serif;
+    /*TIPOGRAFIA*/
+    margin: 0px;
+    /*SACAR EL ESPACIO EN BLANCO*/
+}
+
+.colorprimario {
+    background-color: rgb(245, 245, 220);
+}
+
+.colorsecunadario {
+    background-color: rgb(225, 213, 175);
+}
+
+.bordes {
+    border: 1px solid black;
+}
+
+.navbar {
+    min-height: 100px;
+    background-color: rgb(225, 213, 175);
+    box-shadow: 0 2px 4px black;
+    /*Sombra navbar*/
+}
+
+a {
+    text-decoration: none;
+    /*DECORACION DE LAS LETRAS*/
+    color: black;
+    padding-right: 10px;
+    /*ESPACIOS ENTRE PALABRAS A LA DERECHA*/
+    font-weight: 600;
+    /*LETRA EN NEGRITA*/
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    min-width: 220px;
+    max-width: 240px;
+}
+
+.navbar-toggler {
+    font-size: 40px;
+}
+
+/*Tamano del boton menu*/
+.navbar-toggler:focus {
+    outline: none;
+}
+
+/*Sacarle los bordes al boton cuando es presionado*/
+
+
+.margen {
+    margin-top: 100px;
+}
+
+.margen-titulo {
+    margin-top: 100px;
+}
+
+.titulo {
+    font-size: 30px;
+    text-align: center
+}
+
+.fondo {
+    height: 231px;
+    padding: 0px;
+}
+
+.fondo1 {
+    height: 231px;
+    padding: 0px;
+}
+
+.video-efecto:hover {
+    filter: brightness(50%);
+}
+
+
+.video {
+    height: 400px;
+    width: 900px;
+}
+
+.animate__animated.animate__pulse:hover {
+    animation-iteration-count: infinite;
+}
+
+.boton {
+    width: 161px;
+    height: 67px;
+    margin-top: 90px;
+    background-color: rgb(225, 213, 175);
+    border-radius: 100px;
+    padding: 0px;
+}
+
+.letraboton {
+    font-size: 15px;
+}
+
+.maps {
+    height: 100%;
+    width: 100%;
+}
+
+.pad {
+    padding: 0;
+}
+
+.maps {
+    height: 100%;
+    width: 100%;
+}
+
+.bordeder {
+    border-right: 4px dashed rgb(225, 213, 175);
+}
+
+.bordeizq {
+    border-left: 4px dashed rgb(225, 213, 175);
+}
+
+@media screen and (max-width: 600px) {
+
+    .margen-titulo {
+        margin-top: 40px;
+    }
+
+    .titulo {
+        font-size: 20px;
+        text-align: center
+    }
+
+    .margen-video {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .video {
+        height: 50px;
+        width: 50px;
+    }
+
+    .boton {
+        width: 100px;
+        height: 50px;
+        justify-content: center;
+        padding-right: 0px;
+    }
+
+    .letraboton {
+        font-size: 13px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .fondo {
+        height: 150px;
+        padding: 0px;
+    }
+
+    .fondo1 {
+        height: 150px;
+        padding: 0px;
+    }
+
+    .maps {
+        height: 100%;
+        width: 100%;
+    }
+
+    .pad {
+        padding: 0;
+    }
+
+    .bordeder {
+        border-right: 4px dashed rgb(225, 213, 175);
+    }
+
+    .bordeizq {
+        border-left: 4px dashed rgb(225, 213, 175);
+    }
+
+    .subtitulo-tabla {
+        padding-left: 125px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .subtitulo-tabla {
+        padding-left: 0px;
+        font-size: 20px;
+    }
+
+    .letra-tabla {
+        font-size: 14px;
+    }
+
+
+}
+
+/*Fin de resposive pagina index*/
+/*Inicio de la pagina pallets sin resposive */
+
+.titulo2 {
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    margin-left: 780px;
+    margin-top: 52px;
+}
+
+.alinear {
+    position: absolute;
+    width: 154px;
+    height: 24px;
+    margin-left: 123px;
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.primerseccion {
+    position: absolute;
+    width: 627px;
+    height: 924px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.arlog {
+    position: absolute;
+    width: 627px;
+    height: 462px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.nomarlog {
+    position: absolute;
+    width: 72px;
+    height: 21px;
+    margin-left: 279px;
+    margin-top: 129px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.imgarlog {
+    position: absolute;
+    width: 280px;
+    height: 155px;
+    margin-left: 174px;
+    margin-top: 164px;
+}
+
+.boton2 {
+    position: absolute;
+    width: 95px;
+    height: 40px;
+    margin-left: 267px;
+    margin-top: 339px;
+    background-color: rgb(225, 213, 175);
+    border-radius: 100px;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 10px;
+}
+
+.americano {
+    position: absolute;
+    width: 627px;
+    height: 462px;
+    margin-left: 0px;
+    margin-top: 462px;
+}
+
+.nomamericano {
+    position: absolute;
+    width: 113px;
+    height: 27px;
+    margin-left: 257px;
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.imgamericano {
+    position: absolute;
+    width: 280px;
+    height: 155px;
+    margin-left: 174px;
+    margin-top: 75px;
+}
+
+.boton3 {
+    position: absolute;
+    width: 95px;
+    height: 40px;
+    margin-left: 266px;
+    margin-top: 250px;
+    background-color: rgb(225, 213, 175);
+    border-radius: 100px;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 10px;
+}
+
+.segundaseccion {
+    position: absolute;
+    width: 627px;
+    height: 924px;
+    margin-left: 1027px;
+    margin-top: 0px;
+}
+
+.euro {
+    position: absolute;
+    width: 627px;
+    height: 462px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.nomeuro {
+    position: absolute;
+    width: 65px;
+    height: 21px;
+    margin-left: 290px;
+    margin-top: 133px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.imgeuro {
+    position: absolute;
+    width: 280px;
+    height: 155px;
+    margin-left: 174px;
+    margin-top: 174px;
+}
+
+.boton4 {
+    position: absolute;
+    width: 95px;
+    height: 40px;
+    margin-left: 266px;
+    margin-top: 349px;
+    background-color: rgb(225, 213, 175);
+    border-radius: 100px;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 10px;
+}
+
+.tirante {
+    position: absolute;
+    width: 627px;
+    height: 462px;
+    margin-left: 0px;
+    margin-top: 462px;
+}
+
+.nomtirante {
+    position: absolute;
+    width: 84px;
+    height: 27px;
+    margin-left: 290px;
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.imgtirante {
+    position: absolute;
+    width: 280px;
+    height: 155px;
+    margin-left: 174px;
+    margin-top: 75px;
+}
+
+.boton5 {
+    position: absolute;
+    width: 95px;
+    height: 40px;
+    margin-left: 272px;
+    margin-top: 250px;
+    background-color: rgb(225, 213, 175);
+    border-radius: 100px;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 10px;
+}
+
+.margenes {
+    position: absolute;
+    height: 924px;
+    width: 1652px;
+    margin-left: 0px;
+    margin-top: 100px;
+    border-radius: 0px;
+}
+
+.posicionencabezado1 {
+    position: absolute;
+    width: 1652px;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 924px;
+    background: #E1D5AF;
+    mix-blend-mode: normal;
+}
+
+.mail-logo1 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-left: 520px;
+    margin-top: 12px;
+}
+
+.mail1 {
+    position: absolute;
+    width: 271px;
+    height: 22px;
+    margin-left: 555px;
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.telefono1 {
+    position: absolute;
+    width: 86px;
+    height: 33px;
+    margin-left: 1124px;
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.telefono-logo1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 1104px;
+    margin-top: 17px;
+}
+
+.maps1 {
+    position: absolute;
+    width: 1452px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+/*Fin de pallets */
+/*Inicio de la pagina especificaciones */
+
+
+.bordes {
+    border: 1px solid black;
+}
+
+.bajar {
+    margin-top: 150px;
+}
+
+.titulo-tabla {
+    text-align: center;
+}
+
+.animate__animated.animate__backInLeft {
+    animation-iteration-count: 1;
+}
+
+.animate__animated.animate__bounceInDown {
+    animation-iteration-count: 1;
+}
+
+.medio {
+    padding-left: 40px;
+    padding-top: 7px;
+}
+
+.bajarmas{
+    padding-top: 300px;
+}
+
+/*Fin de especificaciones */
+/*inicio de contacto */
+
+.posicion {
+    position: absolute;
+    width: 626px;
+    height: 589px;
+    margin-left: 513px;
+    margin-top: 168px;
+}
+
+.nombrec {
+    position: absolute;
+    width: 626px;
+    height: 125px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.nom1 {
+    position: absolute;
+    width: 159px;
+    height: 25px;
+    margin-left: 233px;
+    margin-top: 37px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.posicioninput1 {
+    position: absolute;
+    width: 336px;
+    height: 30px;
+    margin-left: 145px;
+    margin-top: 72px;
+    background: rgba(225, 213, 175, 1);
+    border-radius: 10px;
+}
+
+.numtelefono {
+    position: absolute;
+    width: 626px;
+    height: 125px;
+    margin-left: 0px;
+    margin-top: 125px;
+}
+
+.nom2 {
+    position: absolute;
+    width: 171px;
+    height: 25px;
+    margin-left: 241px;
+    margin-top: 37px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.posicioninput2 {
+    position: absolute;
+    width: 336px;
+    height: 30px;
+    margin-left: 145px;
+    margin-top: 72px;
+    background: rgba(225, 213, 175, 1);
+    border-radius: 10px;
+}
+
+.empresa {
+    position: absolute;
+    width: 626px;
+    height: 125px;
+    margin-left: 0px;
+    margin-top: 250px;
+}
+
+.nom3 {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    margin-left: 272px;
+    margin-top: 38px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.posicioninput3 {
+    position: absolute;
+    width: 336px;
+    height: 30px;
+    margin-left: 145px;
+    margin-top: 72px;
+    background: rgba(225, 213, 175, 1);
+    border-radius: 10px;
+}
+
+.posmail {
+    position: absolute;
+    width: 626px;
+    height: 125px;
+    margin-left: 0px;
+    margin-top: 375px;
+}
+
+.nom4 {
+    position: absolute;
+    width: 42px;
+    height: 25px;
+    margin-left: 292px;
+    margin-top: 37px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.posicioninput4 {
+    position: absolute;
+    width: 336px;
+    height: 30px;
+    margin-left: 145px;
+    margin-top: 72px;
+    background: rgba(225, 213, 175, 1);
+    border-radius: 10px;
+}
+
+.boton7 {
+    position: absolute;
+    width: 626px;
+    height: 101px;
+    margin-left: 0px;
+    margin-top: 500px;
+}
+
+.posicioninput5 {
+    position: absolute;
+    width: 110px;
+    height: 32px;
+    margin-left: 258px;
+    margin-top: 31px;
+    background-color: rgb(225, 213, 175);
+    border-radius: 100px;
+    padding: 10px;
+    padding-top: 8px;
+}
+
+.posimg {
+    margin-top: 100px;
+}
